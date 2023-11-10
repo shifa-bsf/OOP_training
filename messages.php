@@ -1,5 +1,5 @@
 <?php
-// mypage.php
+// autoloading
 require('vendor/autoload.php');
 
 $shifa = new Shifa\Person('shifa');

@@ -19,3 +19,23 @@ class lkgMark extends marksheet{
 $mark = new lkgMark();
 $mark->mark = 25;
 echo $mark->getMark();
+
+
+
+
+
+//abstarct class
+abstract class Name {
+    public function printName($name){
+        echo $name;
+    }
+
+}
+class myName extends Name{
+    
+}
+// class Name cannot be instatiated on its own
+// $shape = new Name();
+// echo $shape->printName();
+$newName = new myName();
+echo $newName->printName('shifa');

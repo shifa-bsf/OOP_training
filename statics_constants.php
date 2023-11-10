@@ -20,6 +20,6 @@ echo Math::add(1,2,5);
 myBank::$tax = 20;
 echo '--'.myBank::$tax.'--'.myBank::TAX
 
-//  CONSTANTS - defined using the define() function or the const keyword. It cant be changed.
+//  CONSTANTS - defined using the define() function or the const keyword. It can't be changed.
 //  STATIC variables are defined using the static keyword inside a class. 
 ?>
